@@ -1,0 +1,278 @@
+/* ------ GLOBAL RESET ------ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* ------ PAGE ------ */
+body {
+  background: #f2f6ff;
+  color: #333;
+  padding: 20px;
+}
+
+/* ------ HEADER ------ */
+h2.page-title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 18px;
+  color: #26408b;
+}
+
+/* ------ SEARCH BAR ------ */
+.search-bar-container {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 22px;
+}
+
+.search-bar-container input {
+  flex: 1;
+  font-size: 16px;
+  padding: 11px 14px;
+  border: 1px solid #b8c1ec;
+  border-radius: 6px;
+  background: white;
+}
+
+.search-bar-container button {
+  padding: 11px 20px;
+  font-size: 15px;
+  background: #4169e1;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.search-bar-container button:hover {
+  background: #284bb8;
+}
+
+/* ------ LAYOUT (SIDEBAR + TABLE) ------ */
+.dashboard-container {
+  display: flex;
+  gap: 20px;
+}
+
+/* ------ FILTER PANEL ------ */
+.filter-panel {
+  width: 280px;
+  background: linear-gradient(180deg, #e4f6ff, #ffffff);
+  padding: 18px;
+  border-radius: 12px;
+  border: 1px solid #cfe8ff;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+.filter-panel h4 {
+  margin-bottom: 16px;
+  font-size: 21px;
+  font-weight: 700;
+  color: #26408b;
+}
+
+.filter-panel label {
+  display: block;
+  margin-top: 15px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #1c2c60;
+}
+
+.filter-panel select,
+.filter-panel input {
+  width: 100%;
+  margin-top: 6px;
+  padding: 9px;
+  font-size: 14px;
+  border-radius: 6px;
+  border: 1px solid #9eb6df;
+}
+
+/* ------ TOGGLE BUTTON STYLES (Tags / Category / Payment) ------ */
+.chip-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin-top: 7px;
+}
+
+.chip {
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 13px;
+  border: 1px solid #7d9be7;
+  background: white;
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+.chip:hover {
+  background: #eaf1ff;
+}
+
+.chip.selected {
+  background: #4169e1;
+  color: white;
+  border-color: #4169e1;
+}
+
+/* ------ TABLE AREA ------ */
+.table-wrapper {
+  flex: 1;
+  background: white;
+  padding: 18px;
+  border-radius: 12px;
+  border: 1px solid #d7e1fb;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+/* ------ SORT ------ */
+.sort-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 14px;
+}
+
+.sort-container select {
+  padding: 7px 11px;
+  border-radius: 6px;
+  font-size: 14px;
+  border: 1px solid #9eb6df;
+}
+
+/* ------ TABLE ------ */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 18px;
+}
+
+th,
+td {
+  padding: 11px;
+  text-align: left;
+  border-bottom: 1px solid #e6ecff;
+  font-size: 15px;
+}
+
+th {
+  background: #eaf1ff;
+  font-weight: 700;
+  color: #193a7a;
+}
+
+tbody tr:hover {
+  background: #f5f9ff;
+}
+
+/* ------ PAGINATION ------ */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.pagination button {
+  padding: 10px 16px;
+  background: #4169e1;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+.pagination button:hover:not(:disabled) {
+  background: #284bb8;
+}
+
+.pagination button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.pagination span {
+  font-size: 15px;
+  font-weight: 600;
+  color: #132b63;
+}
+
+.chip-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 6px;
+}
+
+.chip {
+  padding: 6px 12px;
+  border: 1px solid #aaa;
+  border-radius: 20px;
+  background: white;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.chip:hover {
+  background: #f1f1f1;
+}
+
+.chip.selected {
+  background: #007bff;
+  color: white;
+  border-color: #007bff;
+}
+.gender-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.gender-option {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 10px;
+  border: 1px solid #9eb6df;
+  border-radius: 18px;
+  background: white;
+  cursor: pointer;
+  transition: 0.25s;
+  font-size: 14px;
+}
+
+.gender-option:hover {
+  background: #eef4ff;
+}
+
+.gender-option input {
+  transform: scale(1.15);
+}
+
+.gender-option input:checked + span {
+  font-weight: 600;
+}
+
+.clear-gender {
+  padding: 10px 12px;
+  font-size: 12px;
+  border-radius: 16px;
+  border: 1px solid #9eb6df;
+  background: #eef5ff;
+  cursor: pointer;
+}
+
+.clear-gender:hover {
+  background: #ddecff;
+}
