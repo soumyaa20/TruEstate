@@ -1,4 +1,6 @@
 // frontend/src/components/TransactionsTable.jsx
+{loading && <p className="placeholder">Fetching sales data...</p>}
+
 export default function TransactionsTable({ rows }) {
   return (
     <table className="transactions-table">
