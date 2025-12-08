@@ -1,4 +1,6 @@
 // backend/src/controllers/salesController.js
+// Controller to handle fetching sales records with filters, sorting and pagination
+
 const salesService = require('../services/salesService');
 
 exports.getSales = async (req, res) => {
