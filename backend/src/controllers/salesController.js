@@ -5,7 +5,7 @@ const salesService = require('../services/salesService');
 
 exports.getSales = async (req, res) => {
   try {
-    const { data, pagination } = await salesService.fetchSales(req.query);
+    const { data, pagination} = await salesService.fetchSales(req.query);
     res.json({ data, pagination });
   } catch (err) {
     console.error(err);
