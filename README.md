@@ -4,9 +4,8 @@ A full-stack dashboard to analyze retail sales data with powerful filters, sorti
 
 🚀 Live Demo
 
-🔗 Frontend: https://truestate-frontend-2l5h.onrender.com/
-
-🔗 Backend API: https://truestate-1-2636.onrender.com
+[![Frontend](https://img.shields.io/badge/Live%20Frontend-121212?style=for-the-badge&logo=google-chrome&logoColor=white)](https://truestate-frontend-2l5h.onrender.com/)
+[![Backend API](https://img.shields.io/badge/Backend%20API-6A5ACD?style=for-the-badge&logo=fastapi&logoColor=white)](https://truestate-1-2636.onrender.com)
 
 🛠 Tech Stack
 
@@ -83,12 +82,12 @@ npm run dev
 ## 📸 Screenshots
 
 ### 🔹 Dashboard View
-![Dashboard]()
+![Dashboard](https://github.com/soumyaa20/TruEstate/blob/main/frontend/public/dashboard.png)
 
 ### 🔹 Filter Panel
-![Filters](./filter_panel.png)
+![Filters](https://github.com/soumyaa20/TruEstate/blob/main/frontend/public/filter_panel.png)
 
 ### 🔹 Sorted Results
-![Sorted](./sorted.png)
+![Sorted](https://github.com/soumyaa20/TruEstate/blob/main/frontend/public/sorted.png)
 
 
