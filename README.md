@@ -1,23 +1,94 @@
-📊Retail Sales Management Dashboard
+📊 Retail Sales Management Dashboard
 
-Live Demo:
+A full-stack dashboard to analyze retail sales data with powerful filters, sorting, search and pagination — built for performance and business insights.
 
-Service	URL -
+🚀 Live Demo
 
-🔹 Frontend	https://truestate-frontend-2l5h.onrender.com
+🔗 Frontend: https://truestate-frontend-2l5h.onrender.com/
 
-🔹 Backend API	https://truestate-1-2636.onrender.com
+🔗 Backend API: https://truestate-1-2636.onrender.com
 
-Key Features:
+🛠 Tech Stack
 
-1. Search by customer name or phone number
+Core Technology
+<p> <img src="https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB" /> <img src="https://img.shields.io/badge/Vite-%23646CFF?logo=vite&logoColor=white" /> <img src="https://img.shields.io/badge/Node.js-43853D?logo=node.js&logoColor=white" /> <img src="https://img.shields.io/badge/Express-%23000000?logo=express&logoColor=white" /> <img src="https://img.shields.io/badge/MongoDB-%2347A248?logo=mongodb&logoColor=white" /> <img src="https://img.shields.io/badge/Render-%236F2DA8?logo=render&logoColor=white" /> <img src="https://img.shields.io/badge/CSS3-%231572B6?logo=css3&logoColor=white" /> </p>
 
-2. Apply multiple filters together
-(Gender, Age range, Category, Tags, Payment Method, Date range)
+Languages
+<p> <img src="https://img.shields.io/badge/JavaScript-%23F7DF1E?logo=javascript&logoColor=black" /> <img src="https://img.shields.io/badge/HTML5-%23E34F26?logo=html5&logoColor=white" /> <img src="https://img.shields.io/badge/CSS-%231572B6?logo=css3&logoColor=white" /> </p>
 
-3. Sorting by Date, Total Amount, Quantity and more
+Tools Used
+<p> <img src="https://img.shields.io/badge/VS%20Code-0078d7?logo=visual-studio-code&logoColor=white" /> <img src="https://img.shields.io/badge/Git-%23F05033?logo=git&logoColor=white" /> <img src="https://img.shields.io/badge/GitHub-%23121011?logo=github&logoColor=white" /> </p>
 
-4. Pagination for browsing large datasets smoothly
+⭐ Key Features
 
-5. Clean, responsive and user-friendly UI
-   
+✔ Search by customer name or phone number
+
+✔ Apply multiple filters (Gender, Age, Category, Tags, Payment, Date, etc.)
+
+✔ Sorting by Date, Total Amount, Quantity & more
+
+✔ Pagination for large datasets
+
+✔ Clean, responsive & user-friendly UI
+
+
+📁 Folder Structure
+```
+project-root/
+│
+│── backend/
+│   ├── controllers/
+│   ├── models/
+│   ├── routes/
+│   ├── services/
+│   └── index.js
+│
+└── frontend/
+    └── src/
+        ├── pages/
+        ├── components/
+        ├── hooks/
+        ├── styles/
+        └── App.jsx
+```
+
+
+
+
+🧩 How to Run Project Locally
+
+1️⃣ Clone the Repository
+```
+git clone 
+```
+2️⃣ Install Dependencies
+```
+cd backend
+npm install
+cd ../frontend
+npm install
+```
+3️⃣ Start Backend
+```
+cd backend
+npm start
+```
+
+4️⃣ Start Frontend
+```
+cd frontend
+npm run dev
+```
+
+## 📸 Screenshots
+
+### 🔹 Dashboard View
+![Dashboard]()
+
+### 🔹 Filter Panel
+![Filters](./filter_panel.png)
+
+### 🔹 Sorted Results
+![Sorted](./sorted.png)
+
+
